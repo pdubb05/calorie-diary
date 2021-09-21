@@ -48,3 +48,20 @@ const storageItem = (function () {
       },
     };
   })();
+
+  //Iten Controller for calorie tracker
+const mealItemCntrl = (function () {
+  //item Constructor
+  const Item = function (name, calories) {
+    this.id = id.next().value;
+    this.calories = calories;
+    this.name = name;
+  };
+
+  function* genID() {
+    let id = 1;
+    while (true) {
+      yield id++;
+    }
+  }
+  const id = genID();
