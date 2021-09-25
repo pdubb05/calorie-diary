@@ -1,5 +1,6 @@
 # calorie-diary
  
+ Repository link: https://github.com/Osir-is/calorie-diary
 
 About the app
 
